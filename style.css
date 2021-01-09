@@ -1,0 +1,365 @@
+.navbar {
+    background-color: black;
+    width: 100%;
+}
+
+.navbar .collapse .navbar-nav .nav-item {
+    float: right;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+    color: white;
+}
+
+.navbar .collapse .navbar-nav .nav-item.active .nav-link{
+    color: green;
+    font-weight: bold;
+}
+
+.background-image {
+    background-image: url("images/mountain.jpeg");
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    
+    position: absolute;
+    
+}  
+
+@media (min-width: 575.98px) {
+    .github {
+        border-radius: 50%;
+        width: 80px;
+    }
+    .image {
+        border-radius: 50%;
+        width: 150px;
+    }
+    .me {
+        color: khaki;
+    }
+    .mentor {
+        width: 300px;
+        height: 200px;
+
+    }
+    .binaryTree {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .UofC {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .language {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .languageS {
+        width: 150px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .myself {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+    }
+    .icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .github {
+        border-radius: 50%;
+        width: 100px;
+    }
+    .image {
+        border-radius: 60%;
+        width: 200px;
+    }
+    .mentor {
+        width: 300px;
+        height: 200px;
+    }
+    .binaryTree {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .UofC {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .language {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .languageS {
+        width: 150px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .myself {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+    }
+    .icon {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width: 991.98px) {
+    .github {
+        border-radius: 50%;
+        width: 100px;
+    }
+    .image {
+        border-radius: 60%;
+        width: 300px;
+        justify-content: center;
+    }
+    .mentor {
+        width: 400px;
+        height: 300px;
+
+    }
+    .binaryTree {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .UofC {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .language {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .languageS {
+        width: 150px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .myself {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+    }
+    .icon {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 1200.98px) {
+    .background-image {
+        background-size: inherit;
+    }
+    .github {
+        width: 70px;
+        border-radius: 50%;
+    }
+    .image {
+        border-radius: 50%;
+        width: 300px;
+        justify-content: center;
+    }
+    .mentor {
+        width: 250px;
+        height: 250px;
+
+    }
+    .binaryTree {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .UofC {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .language {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .languageS {
+        width: 150px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .myself {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+    }
+    .icon {
+        width: 100px;
+        height: 120px;
+        border-radius: 50%;
+    }
+
+
+    
+
+}
+@media (min-width: 1199.98px) {
+    .background-image {
+        background-size: cover;
+    }
+    .github {
+        width: 100px;
+        border-radius: 50%;
+    }
+    .image {
+        border-radius: 60%;
+        width: 300px;
+    }
+    .mentor {
+        width: 300px;
+        height: 300px;
+
+    }
+    .binaryTree {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .UofC {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .language {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .languageS {
+        width: 150px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .myself {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+    }
+    .icon {
+        width: 100px;
+        height: 110px;
+        border-radius: 50%;
+    }
+    
+}
+
+@media (min-width: 1399.98px) {
+    .background-image {
+        background-size: cover;
+    }
+    .github {
+        width: 100px;
+        border-radius: 50%;
+    }
+    .image {
+        border-radius: 60%;
+        width: 300px;
+    }
+    .mentor {
+        width: 300px;
+        height: 300px;
+    }
+    .binaryTree {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .UofC {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .language {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .languageS {
+        width: 150px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .myself {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+    }
+    .icon {
+        width: 100px;
+        height: 110px;
+        border-radius: 50%;
+    }
+    
+}
+
+.text h1 {
+    color: black;
+    font-size: 9.5vh;
+    padding-top: 150px;
+    text-align: center;
+    position: static;
+}
+
+.pic {
+    padding-top: 150px;
+}
+
+.image {
+    justify-self: center;
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.me {
+    font-size: 4vh;
+}
+
+.divider1 {
+    padding-top:150px;
+
+}
+
+.btn {
+    color: #e40c2b;
+}
+
+#coverPage {
+    height: 100vh;
+}
+
+.background-image {
+    height: 100vh;
+}
